@@ -3,8 +3,8 @@ package com.bridgelabz;
 public class TestMax {
 
     public static void main(String[] args) {
-        int a = 90; //90, 50, 20
-        int b = 50;
+        int a = 50; //50, 90, 20
+        int b = 90;
         int c = 20;
         int temp;
         int temp1;
