@@ -3,13 +3,13 @@ package com.bridgelabz;
 public class TestMax {
 
     public static void main(String[] args) {
-        int a = 50; //50, 90, 20
-        int b = 20;
-        int c = 90;
-        int temp;
-        int temp1;
+        float a = 50.55f; //50, 90, 20
+        float b = 20.22f;
+        float c = 90.99f;
+        float temp;
+        float temp1;
         temp = a > b ? a:b;
         temp1 = temp > c ? temp:c;
-        System.out.println("maximum number among 3 integer: "+temp1);
+        System.out.println("maximum number among 3 float number: "+temp1);
     }
 }
